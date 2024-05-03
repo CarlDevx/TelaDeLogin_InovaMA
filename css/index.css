@@ -8,9 +8,28 @@
 body{
     background-color:#404756;
 }
+#header{
+    width: 100vw;
+}
+#header .logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 3.5rem;
+}
+#logoGovMA{
+    width:15rem;
+}
+#logoIinovaMA{
+    width: 10rem;
+}
+#logoFapema{
+    width: 10rem;
+}
 main{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
