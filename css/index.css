@@ -43,17 +43,30 @@ main{
 .formCadastro{
     background-color:#A4ABBD;
     border-radius: 24px;
-    width: 34vw;
+    width: 30vw;
     height: 70vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-
+}
+.formCadastro form{
+    /*border: solid 1px red;*/
+    width: 25rem;
+}
+.formInputs{
+    width: 100%;
+    border-radius: .3rem;
+    font-size: 17px;
 }
 .formHeader{
     text-align: center;
+    /*border: solid 1px red;*/
+    margin-bottom: 1rem;
 }
 #cadastrarBTN{
+    border-radius: 6px;
+    margin-top: .7rem;
+    padding: .3rem .4rem .3rem .4rem;
     position: relative;
     transform: translate(-50%, 50%);
     top: 50%;
